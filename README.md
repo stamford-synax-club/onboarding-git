@@ -52,22 +52,16 @@ Here are some essential Git commands to get started:
 
 9. `git checkout <branch_name>`: Switches to the specified branch.
 
-## Collaborative Work with Git
+## Using Git to Collaborate
+We will follow the code review approach here - every changes made to the system should be carefully reviewed and tested to ensure quality and prevent potential flaws :)
 
-Git's distributed nature makes it an excellent tool for collaborative work. Here are some best practices for collaborating with others using Git:
+### Steps
+1. Create a new branch out of `main` branch via `git checkout -b <branch_name>` and start coding!
+  
+2. Once you're done, push your branch to remote repository via `git push origin <branch_name>`
 
-1. **Branching Strategy**: Adopt a clear branching strategy, such as GitFlow, to manage different features and releases effectively.
+3. Open the the repository > Pull Requests > New Pull Requests
 
-2. **Pull Requests**: Use pull requests (PRs) to propose changes and review code before merging it into the main branch. PRs provide a structured way to discuss and refine code changes.
+4. Ask someone to review your code
 
-3. **Code Reviews**: Encourage regular code reviews among team members to maintain code quality and catch potential issues early on.
-
-4. **Communication**: Foster open communication channels within the team. Use tools like Slack or Microsoft Teams to discuss code changes, challenges, and progress.
-
-5. **Conflict Resolution**: In case of conflicts during code merging, communicate with the team members involved to resolve conflicts effectively.
-
-6. **Continuous Integration (CI)**: Implement CI practices to automatically test and build code changes upon each push, ensuring a stable codebase.
-
-7. **Version Tagging**: Use version tagging to mark significant milestones or releases in the project's history.
-
-8. **Documentation**: Keep the project's documentation up-to-date, including README files, code comments, and project guidelines.
+5. After the reviewer has approved your Pull Request, merge!!!!
